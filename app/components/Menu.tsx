@@ -1,10 +1,12 @@
 import Link from "next/link";
 import { FaHome, FaUser, FaCalendar } from "react-icons/fa";
+import { FaClipboardList } from "react-icons/fa6";
 
 const menuItems = [
   { icon: FaUser, name: "Customer", link: "/" },
-  { icon: FaHome, name: "Services", link: "/about" },
-  { icon: FaCalendar, name: "Appointments", link: "/services" },
+  { icon: FaHome, name: "Services", link: "/services" },
+  { icon: FaClipboardList, name: "Appointments", link: "/appointments" },
+  { icon: FaCalendar, name: "Calendar", link: "/Calendar" },
 ];
 
 const Menu = () => {
